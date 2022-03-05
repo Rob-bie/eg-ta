@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #dcc484;
+}
+
+#Game {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #b73241;
+  border-radius: 5px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: -8%;
+  transform: translateX(-50%);
+  color: #2d2c3b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+}
